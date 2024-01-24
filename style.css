@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    height: 100vh;
+    position: relative;
+}
+
+.section {
+    background-color: skyblue;
+    min-width: 300px;
+    max-width: 800px;
+    text-align: center;
+    height: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 15%;
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
+
+.heading {
+    color: white;
+    background-color: blueviolet;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#input-text {
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+}
+
+
+
+.listlabel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px 0px;
+}
+
+.fa,
+.fa-brands,
+.fa-classic,
+.fa-regular,
+.fa-sharp,
+.fa-solid,
+.fab,
+.far,
+.fas {
+    line-height: inherit !important;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#input-text:focus {
+    outline: 2px solid blueviolet;
+}
+
+#btn {
+    border: none;
+    color: white;
+    background-color: blueviolet;
+    padding: 8px 10px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+.list-box {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.listpara {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-bottom: 0px;
+}
